@@ -1,0 +1,13 @@
+onst newname=document.getElementById('main-heading');
+newname.textContent="Fruit World";
+newname.style.color='orange';
+
+const header=document.getElementById('header');
+header.style.backgroundColor='green';
+header.style.borderBottom='3px solid orange'
+
+const next=document.getElementById('basket-heading');
+next.style.color='green';
+
+const text=document.getElementById('thanks');
+text.innerHTML="<p>Please visit us again</p>";
